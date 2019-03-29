@@ -8,16 +8,21 @@ Answer *get_indices_of_item_weights(int *weights, int length, int limit)
   //Create hash table
   HashTable *ht = create_hash_table(16);
 
-  // YOUR CODE HERE
-  Answer *answer = malloc(sizeof(Answer *));
-
+  Answer *answer = malloc(sizeof(Answer));
+  // loop through the table (subtract the weight from the limit)
   for (int i = 0; i < length; i++)
   {
-    answer->index_1 = i;
-    answer->index_2 = hash_table_retrieve(ht, weights[i]);
-    return answer;
+    int index = hash_table_retrieve(ht, limit - weights[i]);
+    // is there a solution? Then return it
+    if (index != -1)
+    {
+      answer->index_1 = i;
+      answer->index_2 = index;
+      return answer;
+    }
+    hash_table_insert(ht, weights[i], i);
   }
-
+  destroy_hash_table(ht);
   return NULL;
 }
 
