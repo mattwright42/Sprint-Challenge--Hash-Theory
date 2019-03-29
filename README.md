@@ -1,3 +1,5 @@
+Matt Wright 3/29/2019
+
 # Sprint Challenge: Theory of Computation and Hash Tables
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint, we explored the history and theory of computation, diving deep into memory and pointers by building array functions and hash tables. In your challenge this week, you will demonstrate proficiency by filling out boolean truth tables and solving algorithms in C using hash tables.
@@ -24,19 +26,17 @@ This sprint challenge is divided up into three parts: Boolean algebra (11 points
 
 During your challenge, you will be pulled aside by a PM for a 5 minute interview. During this interview, you will be expected to answer the following three questions:
 
-  * 1. What is a computer and how does it work?
-  * 2. What is an array and how does it work?
-  * 3. What is a hash table and how does it work?
+- 1. What is a computer and how does it work?
+- 2. What is an array and how does it work?
+- 3. What is a hash table and how does it work?
 
 You will receive points at the PM's discretion based on the following criteria:
 
-  * 20: Would love to have this person on my team!
-  * 14: Wouldn't mind working with this person.
-  * 10: Knowledge is lacking OR poor communication skills
-  *  6: Knowledge is lacking AND poor communication skills
-  *  2: You get 2 points for showing up
-
-
+- 20: Would love to have this person on my team!
+- 14: Wouldn't mind working with this person.
+- 10: Knowledge is lacking OR poor communication skills
+- 6: Knowledge is lacking AND poor communication skills
+- 2: You get 2 points for showing up
 
 ## Project Set Up
 
@@ -55,40 +55,41 @@ A hash table implementation has been included for you already. Your task is to g
 You can earn 35 points from the main coding portion of the sprint challenge and up to 4 extra points for completing the stretch goal. Stretch points will only be counted if all regular problems have been completed.
 
 #### [Theory of Computation](https://github.com/LambdaSchool/Sprint-Challenge--Hash-Theory/tree/master/theory) - 11 pts
-  * Boolean 1 - 3 pt
-  * Boolean 2 - 3 pt
-  * Boolean 3 - 5 pt
+
+- Boolean 1 - 3 pt
+- Boolean 2 - 3 pt
+- Boolean 3 - 5 pt
 
 #### [Hash Tables](https://github.com/LambdaSchool/Sprint-Challenge--Hash-Theory/tree/master/hash-tables) - 24 pts
-  * ex1 - 12 pts
-  * ex2 - 12 pts
+
+- ex1 - 12 pts
+- ex2 - 12 pts
 
 Both Hash Table problems will be graded as follows:
-  *  3: Code attempted
-  *  6: Code resembles the correct solution
-  * 10: Tests pass
-  * 11: Tests pass, no hash table memory leaks
-  * 12: Tests pass, no hash table memory leaks, linear runtime complexity  
 
+- 3: Code attempted
+- 6: Code resembles the correct solution
+- 10: Tests pass
+- 11: Tests pass, no hash table memory leaks
+- 12: Tests pass, no hash table memory leaks, linear runtime complexity
 
 #### [Computation Stretch](https://github.com/LambdaSchool/Sprint-Challenge--Hash-Theory/tree/master/theory) - 4 pts
-  * Truth Table - 1 pt
-  * Sum - 1 pt
-  * Carry - 2 pts
 
-
+- Truth Table - 1 pt
+- Sum - 1 pt
+- Carry - 2 pts
 
 ### Grading
 
-Students can receive up to 55 points in total for this Sprint Challenge (not including 4 extra credit points). 
+Students can receive up to 55 points in total for this Sprint Challenge (not including 4 extra credit points).
 
-  * __Challenge__: 35
-  * __Interview__: 20
+- **Challenge**: 35
+- **Interview**: 20
 
---------
+---
 
 The score distributions are as follows:
 
-  * __3__: >= 48 points
-  * __2__: >= 35 points
-  * __1__: < 34 points 
+- **3**: >= 48 points
+- **2**: >= 35 points
+- **1**: < 34 points
